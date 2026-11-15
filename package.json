@@ -1,0 +1,30 @@
+{
+  "name": "@b2apps/gdpr-ropa-audit-mcp",
+  "version": "1.0.0",
+  "description": "Deterministic GDPR Art. 30 RoPA (Record of Processing Activities) validator, ePrivacy cookie/tracker consent classifier, and Art. 28 DPA & Cross-Border SCC/DPF audit checklist generator MCP server.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "gdpr-ropa-audit-mcp": "src/index.mjs"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gdpr",
+    "ropa",
+    "eprivacy",
+    "cookie-consent",
+    "dpa",
+    "scc",
+    "privacy-compliance"
+  ],
+  "author": "B2 Apps (b2apps.dev@gmail.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
