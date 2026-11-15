@@ -1,0 +1,15 @@
+# Smithery.ai configuration for @b2apps/gdpr-ropa-audit-mcp
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      mcpProLicenseKey:
+        type: string
+        description: Optional Pro license key for remote metered gateway and enterprise multi-record RoPA batch exports ($19/mo).
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['src/index.mjs'],
+      env: config.mcpProLicenseKey ? { MCP_PRO_LICENSE_KEY: config.mcpProLicenseKey } : {}
+    })
