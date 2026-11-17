@@ -11,6 +11,7 @@ Deterministic **Model Context Protocol (MCP)** server (`JSON-RPC 2.0` over `stdi
 - 🚀 **Free Online Web Tool**: Generate zero-dependency, GDPR & ePrivacy compliant cookie consent banners and privacy policies instantly at [https://b2appsdev-del.github.io/gdpr-cookie-privacy-generator/](https://b2appsdev-del.github.io/gdpr-cookie-privacy-generator/).
 - 💼 **GDPR Cookie & ROPA Compliance Kit ($0+ PWYW / $29 Pro)**: Full Article 30 ROPA spreadsheets, DPIA assessment templates, and multi-language cookie banner code on [Gumroad](https://devbloom12.gumroad.com/l/fgeokd?utm_source=github&utm_medium=readme).
 - 🌐 **All B2 Apps Tools & Directory**: Explore our full ecosystem of EU dev, compliance, and investor tools at [https://b2appsdev-del.github.io/](https://b2appsdev-del.github.io/).
+- 🧭 **All free samples and step-by-step guides (mobile-friendly):** https://b2appsdev-del.github.io/start/
 
 ---
 
